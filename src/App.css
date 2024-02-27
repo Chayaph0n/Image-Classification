@@ -1,0 +1,17 @@
+@import url('./css/root.css');
+
+.bg-banner {
+  background: url(./assets/fullbanner.png);
+}
+
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 79.25vw;
+  height: 8vh;
+  top:0;
+}
+
