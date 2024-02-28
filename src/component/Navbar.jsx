@@ -24,8 +24,9 @@ const Navbar = () => {
         <>
             <nav className={color ? 'backdrop-blur-md transition-colors' : ''}>
                 <div className='flex items-center gap-4'>
-                    <img className='w-12 h-8' src="/src/assets/logo.png" alt="" />
-                    <h1 className='text-white font-extrabold text-3xl'>ISA CLASSIFY</h1>
+                    {/* <img className='w-12 h-8' src="" alt="" /> */}
+                    <p className='w-12 h-8 text-black bg-white test-center rounded-lg'>LOGO</p>
+                    <h1 className='text-white font-extrabold text-3xl'>Image Classify</h1>
                 </div>
                 {/* <div className='flex justify-between w-96 items-center'>
                     <h1 className={`${value.option}`}>Home</h1>
